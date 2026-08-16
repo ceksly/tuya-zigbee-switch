@@ -3582,7 +3582,7 @@ REMOTE_MOES_SWITCH_A_TS0044:
   - https://github.com/romasku/tuya-zigbee-switch/issues/370
   - https://github.com/romasku/tuya-zigbee-switch/issues/382
   store: null
-REMOTE_MOES_SWITCH_TS0044:
+REMOTE_MOES_SWITCH_Custom_TS0044:
   human_name: Moes 4-gang scene switch
   category: remote
   power: CR2430
