@@ -71,7 +71,7 @@ jobs:
           fi
   
           echo "Building for board: $ITER (router)"
-          BOARD=$ITER DEVICE_TYPE=router make board/build || exit 1
+          BOARD=$ITER DEVICE_TYPE=router DEBUG=1 make board/build || exit 1
           echo "Checking if files were created for board: $ITER (router)"
           ls -l bin/router/$ITER/
 
